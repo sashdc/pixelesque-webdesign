@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  position: relative;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+  border-radius: 90px;
+  box-shadow: 2px 2px 1px 0px rgb(32, 23, 36);
+}
+
+.middle {
+  transition: 0.25s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0.1;
+  transition: 0.5s ease;
+  transform: scale(0.95);
+  box-shadow: 1px 1px 10px 10px rgb(224, 158, 255);
+}
+
+.container:hover .middle {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.overlaytext {
+  font-size: 1vw;
+}
+
+h3.overlaytext {
+  font-size: 1.5vw;
+  /* mkae text transparrent */
+  color: transparent;
+  -webkit-text-stroke: .5px #ffeded;
+  margin-bottom: 0;
+  /* give glowing effect */
+    /* add flickerin animation */
+  animation: flicker 3s infinite ;
+}
+
+@keyframes flicker {
+  0% {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+  }
+  50%{
+    color: transparent;
+    text-shadow: 0 0 2px #fff;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+
+  }
+}
+
+p.overlaytext {
+  margin-bottom: 0;
+}
+
+.fa-laptop:hover {
+  color: #76f571;
+}
+
+.fa-github:hover {
+  color: #ff9c4a;
+}
+
+.overlay {
+  position: absolute;
+  top: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #081d5b;
+  border-radius: 10%;
+}
+
+@media (max-width: 1000px) {
+  .image {
+    border-radius: 50px;
+
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .overlaytext {
+    font-size: 1.2em;
+  }
+
+  h3.overlaytext {
+    font-size: 1.6em;
+  }
+}

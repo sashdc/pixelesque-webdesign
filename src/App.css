@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Beastly&family=Rubik+Broken+Fax&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Iso&family=Rubik+Maps&family=Rubik+Moonrocks&family=Rubik+Pixels&family=Rubik+Wet+Paint&display=swap");
+
+* {
+  color: aliceblue;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Text me one", sans-serif;
+}
+
+/* change color for selected text on whole site */
+::selection {
+  background: #590082e6;
+  color: #dddddd;
+}
+
+/* custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 19px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(#250036, #000003);
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 218, 218);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+
+.main-content {
+  background: linear-gradient(#250036, #000003);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  align-items: center;
+  background-color: rgba(44, 10, 37, 0.85);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title.hover-3 {
+  font-family: "Rubik Broken Fax", sans-serif;
+}
+
+/* Fonts on hover (cycle through) */
+.title.hover-1 {
+  font-family: "Rubik Bubbles", sans-serif;
+}
+
+.title.hover-2 {
+  font-family: "Rubik Doodle Triangles", sans-serif;
+}
+
+.title.hover-4 {
+  font-family: "Rubik Iso", sans-serif;
+}
+.title.hover-5 {
+  font-family: "Rubik Maps", sans-serif;
+}
+.title.hover-6 {
+  font-family: "Rubik Moonrocks", sans-serif;
+}
+.title.hover-7 {
+  font-family: "Rubik Pixels", sans-serif;
+}
+.title.hover-8 {
+  font-family: "Rubik Wet Paint", sans-serif;
+}
+.title.hover-9 {
+  font-family: "Rubik Doodle Shadow", sans-serif;
+}
+.title.hover-10 {
+  font-family: "Rubik Beastly", sans-serif;
+}
+
+/* Add more hover styles for additional fonts */
+
+#about {
+  font-size: 1.2rem;
+}
+
+.parallax1 {
+  background-image: url("../public/banner1.jpg");
+}
+
+.parallax2 {
+  background-image: url("../public/banner2.jpg");
+}
+
+.parallax3 {
+  background-image: url("../public/banner3.jpg");
+}
+
+.parallax {
+  /* The image used */
+  /* Set a specific height */
+  min-height: 250px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 20px 2px black;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  width: 90%;
+  align-self: center;
+  position: relative;
+  text-align: center;
+}
+
+.icon {
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+}
+
+.icon:hover {
+  filter: grayscale(0%);
+  transition: 0.5s ease;
+}
+
+.skillname {
+  opacity: 0.05;
+  transition: 0.3s ease;
+}
+
+.icon:hover + .skillname {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.skillname:hover {
+  opacity: 1;
+  transition: 0.5s ease;
+  cursor: default;
+}
+
+.contact {
+  text-align: right;
+}
+
+.headshots {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.headshot {
+  position: relative;
+  z-index: 20;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.headshotpx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.headshot:hover {
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.contactlink:hover,
+.contactlink:focus {
+  color: #aaa;
+  text-decoration: none;
+}
+
+@media (max-width: 1130px) {
+  .skillbar {
+    width: 80%;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .headshot .headshotpx {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .parallax {
+    min-height: 200px;
+    border-radius: 20px;
+    background-position: bottom;
+  }
+
+  .parallax1 {
+    background-image: url("../public/banner1-mobile.jpg");
+  }
+
+  .parallax2 {
+    background-image: url("../public/banner2-mobile.jpg");
+  }
+
+  .parallax3 {
+    background-image: url("../public/banner3-mobile.jpg");
+  }
+}

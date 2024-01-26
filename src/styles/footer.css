@@ -1,0 +1,68 @@
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+/* html {
+  position: relative;
+  min-height: 100%;
+} */
+
+/* body {
+  Margin bottom by footer height
+  margin-bottom: 300px;
+} */
+
+.footer {
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /* height: 300px; */
+}
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  /* padding-top: 20px; */
+  background: linear-gradient( #000003, #14001d);
+  color: #bbb;
+  align-items: center;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footnav{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px;
+  padding: 0;
+  justify-content: space-between;
+  width: 20%;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 1px dashed #999;
+}
+
+@media (max-width:1130px) {
+.footerinfo{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.footnav{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+
+}
+
+}
