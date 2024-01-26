@@ -2,7 +2,7 @@
   "name": "pixelesque-webdesign",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sashdc.github.io/pixelesque-webdesign/",
+  "homepage": "https://pixelesque.ca",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
