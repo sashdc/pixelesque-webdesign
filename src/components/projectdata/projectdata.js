@@ -2,12 +2,12 @@ export const projectData = [
   {
     name: "WordPlay",
     description:
-      "A word guessing game that uses a 3rd party API to randomly generate words and clues ",
+      "A word guessing game that uses a Dictioanry API to randomly generate words and clues ",
       img: process.env.PUBLIC_URL + "/wordplay.jpg",
       // img: "./sash-portfolio/wordplay.jpg",
-    github: "https://github.com/sashdc/Word-Play",
-    deployment: "https://sashdc.github.io/Word-Play/",
-    skills: " FrontEnd || 3rd Party APIs",
+    github: "https://github.com/sashdc/wordplay",
+    deployment: "https://wordplay-game.netlify.app/",
+    skills: " React || Server Side APIs",
   },
 
   {
