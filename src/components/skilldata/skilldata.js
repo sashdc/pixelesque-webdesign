@@ -11,10 +11,17 @@ export const skillData = [
     name: "JavaScript",
     img:process.env.PUBLIC_URL +  "/icons/javascript.svg",
   },
-
+  {
+    name: "TypeScript",
+    img:process.env.PUBLIC_URL +  "/icons/ts.svg",
+  },
   {
     name: "React",
     img: process.env.PUBLIC_URL + "/icons/react.svg",
+  },
+  {
+    name: "NextJS",
+    img: process.env.PUBLIC_URL + "/icons/next-js.jpeg",
   },
   {
     name: "Node",

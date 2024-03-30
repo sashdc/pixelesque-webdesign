@@ -9,6 +9,7 @@ export default function Skill(props) {
             src={props.img}
             alt= {props.name}
             height="50px"
+            // width="50px"
            />
           <h5 className="skillname">{props.name}</h5>
         </div>
