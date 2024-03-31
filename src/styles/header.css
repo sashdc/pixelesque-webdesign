@@ -78,8 +78,8 @@ nav .container ul li.active a {
 .sticky a{
   text-decoration: none;
   display: inline-flex;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  /* padding-top: 3px; */
+  /* padding-bottom: 3px; */
   }
 
 .sticky  i:hover{
@@ -91,11 +91,12 @@ transition: .5s ease;
 .sticky i{
   transform: scale(1);
 transition: .5s ease;
+padding: 8px 8px 8px 0 ;
 }
 
 .sticky-info{
   display: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 10px;
   justify-items: center;
   transition: 2s ease;
