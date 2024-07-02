@@ -2,7 +2,7 @@ export const projectData = [
   {
     name: "WordPlay",
     description:
-      "A word guessing game that uses a Dictioanry API to randomly generate words and clues ",
+      "A word guessing game that uses a Dictionary API to randomly generate words and clues ",
       img: process.env.PUBLIC_URL + "/wordplay.jpg",
       // img: "./sash-portfolio/wordplay.jpg",
     github: "https://github.com/sashdc/wordplay",
@@ -62,7 +62,7 @@ export const projectData = [
   {
     name: "Richards Marine Website 2",
     description:
-      "A conceptual corporate website for an international marine furniture company (in progress), made to look like a desktop as per client's request. ",
+      "A conceptual corporate website for an international marine furniture company (in progress).",
     img: process.env.PUBLIC_URL + "/rmsm2.jpg",
     // img: "./sash-portfolio/rmsm.jpg",
     github: "https://github.com/sashdc/rmsm2",

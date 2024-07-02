@@ -45,12 +45,10 @@
 
 h3.overlaytext {
   font-size: 1.5vw;
-  /* mkae text transparrent */
   color: transparent;
   -webkit-text-stroke: .5px #ffeded;
   margin-bottom: 0;
-  /* give glowing effect */
-    /* add flickerin animation */
+ 
   animation: flicker 3s infinite ;
 }
 
@@ -97,11 +95,17 @@ p.overlaytext {
 @media (max-width: 1000px) {
   .image {
     border-radius: 50px;
-
   }
 
   .container {
     width: 80%;
+  }
+
+  .middle{
+    opacity: 1;
+    background-color: rgba(44, 10, 37, 0.85);
+    padding: 1em;
+    border-radius: 50px;
   }
 
   .overlaytext {
@@ -111,4 +115,18 @@ p.overlaytext {
   h3.overlaytext {
     font-size: 1.6em;
   }
+}
+
+@media (max-width: 600px) {
+.overlaytext{
+  font-size: .85em;
+}
+
+h3.overlaytext {
+  font-size: 1.3em;
+}
+
+.middle{
+  padding: 0.5em;
+}
 }
