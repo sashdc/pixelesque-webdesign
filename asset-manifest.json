@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8068a37.css",
-    "main.js": "/static/js/main.40e406ac.js",
+    "main.css": "/static/css/main.d22d94dc.css",
+    "main.js": "/static/js/main.0bf1fc45.js",
     "static/media/banner2.jpg": "/static/media/banner2.7d232fef1b134f8ad564.jpg",
     "static/media/banner1.jpg": "/static/media/banner1.114a964a311c63241cf0.jpg",
     "static/media/banner1-mobile.jpg": "/static/media/banner1-mobile.52ee5a1d6dc9cc40c80e.jpg",
@@ -13,11 +13,11 @@
     "static/media/Saharsh-Cherian-CV.pdf": "/static/media/Saharsh-Cherian-CV.f7de6bd454a26e8090b6.pdf",
     "static/media/headshotpx.jpg": "/static/media/headshotpx.45d270c25d033ff103e2.jpg",
     "index.html": "/index.html",
-    "main.b8068a37.css.map": "/static/css/main.b8068a37.css.map",
-    "main.40e406ac.js.map": "/static/js/main.40e406ac.js.map"
+    "main.d22d94dc.css.map": "/static/css/main.d22d94dc.css.map",
+    "main.0bf1fc45.js.map": "/static/js/main.0bf1fc45.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8068a37.css",
-    "static/js/main.40e406ac.js"
+    "static/css/main.d22d94dc.css",
+    "static/js/main.0bf1fc45.js"
   ]
 }
