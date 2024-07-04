@@ -4,18 +4,24 @@ export const projectData = [
     description:
       "A word guessing game that uses a Dictionary API to randomly generate words and clues ",
       img: process.env.PUBLIC_URL + "/wordplay.jpg",
-      // img: "./sash-portfolio/wordplay.jpg",
     github: "https://github.com/sashdc/wordplay",
     deployment: "https://wordplay-game.netlify.app/",
     skills: " React || Server Side APIs",
   },
-
+  {
+    name: "LightBulb",
+    description:
+      "A PWA that helps photographers find and save pose ideas for their photoshoots. ",
+      img: process.env.PUBLIC_URL + "/lightbulb.jpg",
+    github: "https://github.com/sashdc/lightbulb-pwa",
+    deployment: "https://lightbulb-photo.netlify.app/",
+    skills: " React || NextJS",
+  },
   {
     name: "The Lending Station",
     description:
       "A full stack app that links a SQL database with a front end catalogue for admin and users of a lending library ",
     img: process.env.PUBLIC_URL + "/lendingstation.jpg",
-    // img: "./sash-portfolio/lendingstation.jpg",
     github: "https://github.com/sashdc/the-lending-station",
     deployment: "https://the-lending-station.herokuapp.com/",
     skills: "FullStack || MySQL || Express.js ",
@@ -25,7 +31,6 @@ export const projectData = [
     description:
       "A cocktail recipe finder that uses a 3rd party API to  generate beverage recipes based on user input.",
     img: process.env.PUBLIC_URL + "/clink.jpg",
-    // img: "./sash-portfolio/clink.jpg",
     github: "https://github.com/sashdc/clink",
     deployment: "https://clinkyourdrink.netlify.app/",
     skills: "React ||  JavaScript || CSS  ",
@@ -35,7 +40,6 @@ export const projectData = [
     description:
       "A full stack social media app with auth, light/dark mode, and post interactions.",
     img: process.env.PUBLIC_URL + "/sashbook.jpg",
-    // img: "./sash-portfolio/clink.jpg",
     github: "https://github.com/sashdc/sashbook",
     skills: "MERN ||  Redux || Formic || Yup || Material UI  ",
   },
@@ -44,7 +48,6 @@ export const projectData = [
     description:
       "A full stack e-commerce app that uses the MERN stack, GraphQL, and Stripe integrated payment. ",
     img: process.env.PUBLIC_URL + "/javascript.jpg",
-    // img: "./sash-portfolio/javascript.jpg",
     github: "https://github.com/AmyWilford/Mug-Store",
     deployment: "https://whispering-inlet-47426.herokuapp.com/",
     skills: "FullStack || NoSQL || GraphQL ",
@@ -54,7 +57,6 @@ export const projectData = [
     description:
       "A standard corporate website for an international marine furniture company (in progress). ",
     img:process.env.PUBLIC_URL +  "/rmsm.jpg",
-    // img: "./sash-portfolio/rmsm.jpg",
     github: "https://github.com/sashdc/richard-marine",
     deployment: "https://dry-river-92667.herokuapp.com/",
     skills: "React || Javascript || HTML || CSS",
@@ -64,7 +66,6 @@ export const projectData = [
     description:
       "A conceptual corporate website for an international marine furniture company (in progress).",
     img: process.env.PUBLIC_URL + "/rmsm2.jpg",
-    // img: "./sash-portfolio/rmsm.jpg",
     github: "https://github.com/sashdc/rmsm2",
     deployment: "https://rmsm.herokuapp.com/",
     skills: "React || Javascript || HTML || CSS",
