@@ -111,16 +111,16 @@ export const projectData = [
     skills: "FullStack || MySQL || Express.js ",
   },
 
-  {
-    name: "The Note Yard",
-    description:
-      "A note taking app that saves notes from users which can be edited or deleted. ",
-    img: process.env.PUBLIC_URL + "/noteyard.jpg",
-    // img: "./sash-portfolio/noteyard.jpg",
-    github: "https://github.com/sashdc/The-note-book",
-    deployment: "https://the-note-yard.herokuapp.com/",
-    skills: "Express.js",
-  },
+  // {
+  //   name: "The Note Yard",
+  //   description:
+  //     "A note taking app that saves notes from users which can be edited or deleted. ",
+  //   img: process.env.PUBLIC_URL + "/noteyard.jpg",
+  //   // img: "./sash-portfolio/noteyard.jpg",
+  //   github: "https://github.com/sashdc/The-note-book",
+  //   deployment: "https://the-note-yard.herokuapp.com/",
+  //   skills: "Express.js",
+  // },
 
   {
     name: "The Weather Station",
