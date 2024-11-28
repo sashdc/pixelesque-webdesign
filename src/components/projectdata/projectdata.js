@@ -18,6 +18,15 @@ export const projectData = [
     skills: " React || NextJS",
   },
   {
+    name: "Determination Martial Arts",
+    description:
+      "A website for a martial arts studio integrating 3rd party schdeuling API, and facebook and instagram embedding.",
+    img: process.env.PUBLIC_URL + "/determination.jpg",
+    github: "https://github.com/sashdc/determination",
+    deployment: "https://determinationma.netlify.app/",
+    skills: "NextJS || APIs || Bootstrap  ",
+  },
+  {
     name: "The Lending Station",
     description:
       "A full stack app that links a SQL database with a front end catalogue for admin and users of a lending library ",
@@ -35,23 +44,15 @@ export const projectData = [
     deployment: "https://clinkyourdrink.netlify.app/",
     skills: "React ||  JavaScript || CSS  ",
   },
-  {
-    name: "Sashbook",
-    description:
-      "A full stack social media app with auth, light/dark mode, and post interactions.",
-    img: process.env.PUBLIC_URL + "/sashbook.jpg",
-    github: "https://github.com/sashdc/sashbook",
-    skills: "MERN ||  Redux || Formic || Yup || Material UI  ",
-  },
-  {
-    name: "Java Script",
-    description:
-      "A full stack e-commerce app that uses the MERN stack, GraphQL, and Stripe integrated payment. ",
-    img: process.env.PUBLIC_URL + "/javascript.jpg",
-    github: "https://github.com/AmyWilford/Mug-Store",
-    deployment: "https://whispering-inlet-47426.herokuapp.com/",
-    skills: "FullStack || NoSQL || GraphQL ",
-  },
+  // {
+  //   name: "Sashbook",
+  //   description:
+  //     "A full stack social media app with auth, light/dark mode, and post interactions.",
+  //   img: process.env.PUBLIC_URL + "/sashbook.jpg",
+  //   github: "https://github.com/sashdc/sashbook",
+  //   skills: "MERN ||  Redux || Formic || Yup || Material UI  ",
+  // },
+ 
   {
     name: "Richards Marine Website",
     description:
@@ -99,6 +100,15 @@ export const projectData = [
     github: null,
     deployment: "https://www.harlequinsingers.com/home/",
     skills: "WordPress || CSS || Elementor",
+  },
+  {
+    name: "Java Script",
+    description:
+      "A full stack e-commerce app that uses the MERN stack, GraphQL, and Stripe integrated payment. ",
+    img: process.env.PUBLIC_URL + "/javascript.jpg",
+    github: "https://github.com/AmyWilford/Mug-Store",
+    deployment: "https://whispering-inlet-47426.herokuapp.com/",
+    skills: "FullStack || NoSQL || GraphQL ",
   },
   {
     name: "The Blogpile",
